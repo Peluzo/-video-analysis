@@ -1,14 +1,11 @@
 
 import {
   BarChart3,
-  Upload,
-  Video,
-  Settings,
   Home,
-  Activity,
   Users,
   Target,
-  PieChart
+  Activity,
+  Settings,
 } from "lucide-react";
 import {
   Sidebar,
@@ -22,7 +19,6 @@ import {
   SidebarHeader,
   SidebarFooter,
 } from "@/components/ui/sidebar";
-import { useState } from "react";
 
 const menuItems = [
   {
@@ -32,40 +28,16 @@ const menuItems = [
     id: "dashboard"
   },
   {
-    title: "Upload Video",
-    url: "#",
-    icon: Upload,
-    id: "upload"
-  },
-  {
-    title: "Video Analysis",
-    url: "#",
-    icon: Video,
-    id: "analysis"
-  },
-  {
     title: "Player Stats",
     url: "#",
     icon: Users,
     id: "players"
   },
   {
-    title: "Match Analytics",
-    url: "#",
-    icon: BarChart3,
-    id: "match"
-  },
-  {
-    title: "Performance",
-    url: "#",
-    icon: Activity,
-    id: "performance"
-  },
-  {
-    title: "Tactics",
+    title: "Team Stats",
     url: "#",
     icon: Target,
-    id: "tactics"
+    id: "team"
   },
 ];
 

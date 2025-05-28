@@ -3,11 +3,17 @@ import { SidebarTrigger } from "@/components/ui/sidebar";
 import { VideoUpload } from "@/components/VideoUpload";
 import { AnalyticsDashboard } from "@/components/AnalyticsDashboard";
 import { VideoAnalysis } from "@/components/VideoAnalysis";
+import { PlayerStats } from "@/components/PlayerStats";
+import { TeamStats } from "@/components/TeamStats";
 import { useState } from "react";
 import { Menu } from "lucide-react";
 
-export function Dashboard() {
-  const [activeSection, setActiveSection] = useState("dashboard");
+interface DashboardProps {
+  activeSection: string;
+  onSectionChange: (section: string) => void;
+}
+
+export function Dashboard({ activeSection, onSectionChange }: DashboardProps) {
   const [uploadedVideo, setUploadedVideo] = useState<File | null>(null);
   const [isProcessing, setIsProcessing] = useState(false);
 
@@ -18,18 +24,26 @@ export function Dashboard() {
     // Simulate processing delay
     setTimeout(() => {
       setIsProcessing(false);
-      setActiveSection("analysis");
+      // Stay on dashboard after upload
     }, 3000);
   };
 
   const renderContent = () => {
     switch (activeSection) {
-      case "upload":
-        return <VideoUpload onVideoUpload={handleVideoUpload} isProcessing={isProcessing} />;
-      case "analysis":
-        return <VideoAnalysis video={uploadedVideo} />;
+      case "players":
+        return <PlayerStats />;
+      case "team":
+        return <TeamStats />;
       default:
-        return <AnalyticsDashboard />;
+        return (
+          <div className="space-y-8">
+            <VideoUpload onVideoUpload={handleVideoUpload} isProcessing={isProcessing} />
+            <AnalyticsDashboard />
+            {uploadedVideo && (
+              <VideoAnalysis video={uploadedVideo} />
+            )}
+          </div>
+        );
     }
   };
 
