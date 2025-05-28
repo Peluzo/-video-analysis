@@ -1,0 +1,65 @@
+
+{
+  "teamStats": {
+    "wins": 15,
+    "draws": 5,
+    "losses": 3,
+    "goalsScored": 86
+  },
+  "matchResults": [
+    {
+      "id": 1,
+      "match": "vs Team A",
+      "goals": 3,
+      "conceded": 1,
+      "possession": 65,
+      "result": "W"
+    },
+    {
+      "id": 2,
+      "match": "vs Team B",
+      "goals": 1,
+      "conceded": 2,
+      "possession": 45,
+      "result": "L"
+    },
+    {
+      "id": 3,
+      "match": "vs Team C",
+      "goals": 2,
+      "conceded": 2,
+      "possession": 55,
+      "result": "D"
+    },
+    {
+      "id": 4,
+      "match": "vs Team D",
+      "goals": 4,
+      "conceded": 0,
+      "possession": 70,
+      "result": "W"
+    },
+    {
+      "id": 5,
+      "match": "vs Team E",
+      "goals": 1,
+      "conceded": 1,
+      "possession": 50,
+      "result": "D"
+    }
+  ],
+  "monthlyStats": [
+    { "month": "Jan", "goals": 12, "assists": 8, "cleanSheets": 2 },
+    { "month": "Feb", "goals": 15, "assists": 12, "cleanSheets": 3 },
+    { "month": "Mar", "goals": 18, "assists": 10, "cleanSheets": 4 },
+    { "month": "Apr", "goals": 22, "assists": 15, "cleanSheets": 5 },
+    { "month": "May", "goals": 19, "assists": 13, "cleanSheets": 3 }
+  ],
+  "possessionData": [
+    { "match": "Match 1", "possession": 65 },
+    { "match": "Match 2", "possession": 45 },
+    { "match": "Match 3", "possession": 55 },
+    { "match": "Match 4", "possession": 70 },
+    { "match": "Match 5", "possession": 50 }
+  ]
+}

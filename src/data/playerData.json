@@ -1,0 +1,62 @@
+
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "position": "Forward",
+      "goals": 15,
+      "assists": 8,
+      "minutes": 1200,
+      "rating": 8.5
+    },
+    {
+      "id": 2,
+      "name": "Miguel Santos",
+      "position": "Midfielder",
+      "goals": 6,
+      "assists": 12,
+      "minutes": 1450,
+      "rating": 8.2
+    },
+    {
+      "id": 3,
+      "name": "Pedro Costa",
+      "position": "Defender",
+      "goals": 2,
+      "assists": 3,
+      "minutes": 1380,
+      "rating": 7.8
+    },
+    {
+      "id": 4,
+      "name": "António Pereira",
+      "position": "Goalkeeper",
+      "goals": 0,
+      "assists": 1,
+      "minutes": 1440,
+      "rating": 8.0
+    },
+    {
+      "id": 5,
+      "name": "Carlos Oliveira",
+      "position": "Midfielder",
+      "goals": 8,
+      "assists": 6,
+      "minutes": 1100,
+      "rating": 7.9
+    }
+  ],
+  "topScorers": [
+    { "name": "João Silva", "goals": 15 },
+    { "name": "Carlos Oliveira", "goals": 8 },
+    { "name": "Miguel Santos", "goals": 6 },
+    { "name": "Pedro Costa", "goals": 2 }
+  ],
+  "positionDistribution": [
+    { "name": "Forwards", "value": 4, "color": "#3b82f6" },
+    { "name": "Midfielders", "value": 6, "color": "#10b981" },
+    { "name": "Defenders", "value": 4, "color": "#f59e0b" },
+    { "name": "Goalkeepers", "value": 2, "color": "#ef4444" }
+  ]
+}

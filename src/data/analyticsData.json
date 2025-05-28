@@ -1,0 +1,30 @@
+
+{
+  "matchData": [
+    { "minute": 0, "possession": 45, "intensity": 70 },
+    { "minute": 15, "possession": 52, "intensity": 85 },
+    { "minute": 30, "possession": 48, "intensity": 75 },
+    { "minute": 45, "possession": 55, "intensity": 90 },
+    { "minute": 60, "possession": 42, "intensity": 80 },
+    { "minute": 75, "possession": 58, "intensity": 95 },
+    { "minute": 90, "possession": 50, "intensity": 85 }
+  ],
+  "playerStats": [
+    { "name": "Player 1", "goals": 2, "assists": 1, "distance": 11.2 },
+    { "name": "Player 2", "goals": 1, "assists": 3, "distance": 10.8 },
+    { "name": "Player 3", "goals": 0, "assists": 2, "distance": 12.1 },
+    { "name": "Player 4", "goals": 1, "assists": 0, "distance": 9.8 },
+    { "name": "Player 5", "goals": 0, "assists": 1, "distance": 11.5 }
+  ],
+  "positionData": [
+    { "name": "Defense", "value": 35, "color": "#3B82F6" },
+    { "name": "Midfield", "value": 45, "color": "#8B5CF6" },
+    { "name": "Attack", "value": 20, "color": "#10B981" }
+  ],
+  "keyMetrics": {
+    "ballPossession": { "value": 52, "change": 3.2, "trend": "up" },
+    "goalsScored": { "value": 3, "status": "Above avg" },
+    "passAccuracy": { "value": 87, "change": -1.5, "trend": "down" },
+    "distanceCovered": { "value": 108, "change": 5.1, "trend": "up" }
+  }
+}
