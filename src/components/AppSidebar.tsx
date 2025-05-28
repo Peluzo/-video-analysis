@@ -47,6 +47,10 @@ interface AppSidebarProps {
 }
 
 export function AppSidebar({ activeSection = "dashboard", onSectionChange }: AppSidebarProps) {
+  const handleMenuClick = (itemId: string) => {
+    onSectionChange?.(itemId);
+  };
+
   return (
     <Sidebar className="bg-gray-950 border-gray-800">
       <SidebarHeader className="border-b border-gray-800 p-6">
@@ -71,16 +75,15 @@ export function AppSidebar({ activeSection = "dashboard", onSectionChange }: App
               {menuItems.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton 
-                    asChild
-                    className={`text-gray-300 hover:text-white hover:bg-gray-800 transition-all duration-200 ${
+                    className={`text-gray-300 hover:text-white hover:bg-gray-800 transition-all duration-200 cursor-pointer ${
                       activeSection === item.id ? 'bg-blue-600 text-white hover:bg-blue-700' : ''
                     }`}
-                    onClick={() => onSectionChange?.(item.id)}
+                    onClick={() => handleMenuClick(item.id)}
                   >
-                    <a href={item.url} className="flex items-center gap-3 px-3 py-2">
+                    <div className="flex items-center gap-3 px-3 py-2">
                       <item.icon className="w-5 h-5" />
                       <span>{item.title}</span>
-                    </a>
+                    </div>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
@@ -92,11 +95,11 @@ export function AppSidebar({ activeSection = "dashboard", onSectionChange }: App
       <SidebarFooter className="border-t border-gray-800 p-4">
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton asChild className="text-gray-400 hover:text-white hover:bg-gray-800">
-              <a href="#" className="flex items-center gap-3">
+            <SidebarMenuButton className="text-gray-400 hover:text-white hover:bg-gray-800 cursor-pointer">
+              <div className="flex items-center gap-3">
                 <Settings className="w-5 h-5" />
                 <span>Settings</span>
-              </a>
+              </div>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
