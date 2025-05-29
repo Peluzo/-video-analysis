@@ -53,24 +53,28 @@ export function AppSidebar({ activeSection = "dashboard", onSectionChange }: App
 
   return (
     <Sidebar className="bg-gray-950 border-gray-800">
-      <SidebarHeader className="border-b border-gray-800 p-6">
+      <SidebarHeader className="border-b border-gray-800 p-6 bg-gray-950">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-            <Activity className="w-5 h-5 text-white" />
+          <div className="w-12 h-12 flex items-center justify-center">
+            <img 
+              src="/lovable-uploads/0de70b71-a308-41e9-91a8-894ecfc73c21.png" 
+              alt="TIA Sport Logo" 
+              className="w-full h-full object-contain"
+            />
           </div>
           <div>
-            <h2 className="text-lg font-bold text-white">SoccerVision</h2>
-            <p className="text-xs text-gray-400">Analytics Dashboard</p>
+            <h2 className="text-lg font-bold text-white">TIA Sport</h2>
+            <p className="text-xs text-gray-400">Tactical Intelligence Assistant</p>
           </div>
         </div>
       </SidebarHeader>
       
       <SidebarContent className="bg-gray-950">
-        <SidebarGroup>
-          <SidebarGroupLabel className="text-gray-400 text-xs uppercase tracking-wider px-3 py-2">
+        <SidebarGroup className="bg-gray-950">
+          <SidebarGroupLabel className="text-gray-400 text-xs uppercase tracking-wider px-3 py-2 bg-gray-950">
             Navigation
           </SidebarGroupLabel>
-          <SidebarGroupContent>
+          <SidebarGroupContent className="bg-gray-950">
             <SidebarMenu>
               {menuItems.map((item) => (
                 <SidebarMenuItem key={item.title}>
@@ -92,7 +96,7 @@ export function AppSidebar({ activeSection = "dashboard", onSectionChange }: App
         </SidebarGroup>
       </SidebarContent>
       
-      <SidebarFooter className="border-t border-gray-800 p-4">
+      <SidebarFooter className="border-t border-gray-800 p-4 bg-gray-950">
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton className="text-gray-400 hover:text-white hover:bg-gray-800 cursor-pointer">
