@@ -1,11 +1,11 @@
-
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { VideoUpload } from "@/components/VideoUpload";
 import { AnalyticsDashboard } from "@/components/AnalyticsDashboard";
 import { VideoAnalysis } from "@/components/VideoAnalysis";
 import { PlayerStats } from "@/components/PlayerStats";
 import { TeamStats } from "@/components/TeamStats";
-import { useState } from "react";
+import { BallDetection } from "@/components/BallDetection";
+import { useState, useEffect } from "react";
 import { Menu } from "lucide-react";
 
 interface DashboardProps {
@@ -16,6 +16,10 @@ interface DashboardProps {
 export function Dashboard({ activeSection, onSectionChange }: DashboardProps) {
   const [uploadedVideo, setUploadedVideo] = useState<File | null>(null);
   const [isProcessing, setIsProcessing] = useState(false);
+
+  useEffect(() => {
+    console.log('Dashboard - activeSection:', activeSection);
+  }, [activeSection]);
 
   const handleVideoUpload = (file: File) => {
     setUploadedVideo(file);
@@ -34,6 +38,8 @@ export function Dashboard({ activeSection, onSectionChange }: DashboardProps) {
         return <PlayerStats />;
       case "team":
         return <TeamStats />;
+      case "ball":
+        return <BallDetection />;
       default:
         return (
           <div className="space-y-8">

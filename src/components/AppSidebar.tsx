@@ -1,4 +1,3 @@
-
 import {
   BarChart3,
   Home,
@@ -6,6 +5,7 @@ import {
   Target,
   Activity,
   Settings,
+  Circle,
 } from "lucide-react";
 import {
   Sidebar,
@@ -38,6 +38,12 @@ const menuItems = [
     url: "#",
     icon: Target,
     id: "team"
+  },
+  {
+    title: "Ball Detection",
+    url: "#",
+    icon: Circle,
+    id: "ball"
   },
 ];
 

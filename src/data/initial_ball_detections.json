@@ -1,0 +1,1838 @@
+[
+    {
+        "frame": 0,
+        "xyxy": [
+            1339.078125,
+            346.7704162597656,
+            1361.194580078125,
+            367.9422302246094
+        ],
+        "mask": null,
+        "confidence": 0.8215273022651672,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5582.83984375,
+        "transformed_y": 624.8151245117188
+    },
+    {
+        "frame": 1,
+        "xyxy": [
+            1339.078125,
+            346.7705993652344,
+            1361.19482421875,
+            367.9422302246094
+        ],
+        "mask": null,
+        "confidence": 0.8215121626853943,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5583.0068359375,
+        "transformed_y": 624.515869140625
+    },
+    {
+        "frame": 2,
+        "xyxy": [
+            1349.8818359375,
+            352.677490234375,
+            1371.4755859375,
+            374.1072998046875
+        ],
+        "mask": null,
+        "confidence": 0.8274921178817749,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5652.06103515625,
+        "transformed_y": 761.0891723632812
+    },
+    {
+        "frame": 3,
+        "xyxy": [
+            1358.943359375,
+            359.1732482910156,
+            1382.0657958984375,
+            381.0542297363281
+        ],
+        "mask": null,
+        "confidence": 0.819918155670166,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5717.01123046875,
+        "transformed_y": 913.5393676757812
+    },
+    {
+        "frame": 4,
+        "xyxy": [
+            1369.250732421875,
+            365.7772216796875,
+            1392.628662109375,
+            387.8251953125
+        ],
+        "mask": null,
+        "confidence": 0.8200546503067017,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5781.3798828125,
+        "transformed_y": 1049.831787109375
+    },
+    {
+        "frame": 5,
+        "xyxy": [
+            1379.564697265625,
+            372.57354736328125,
+            1403.3909912109375,
+            396.00469970703125
+        ],
+        "mask": null,
+        "confidence": 0.6233466863632202,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5853.205078125,
+        "transformed_y": 1214.2218017578125
+    },
+    {
+        "frame": 6,
+        "xyxy": [
+            1389.9161376953125,
+            380.03326416015625,
+            1413.3846435546875,
+            403.5162353515625
+        ],
+        "mask": null,
+        "confidence": 0.8518962264060974,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5911.18359375,
+        "transformed_y": 1347.5701904296875
+    },
+    {
+        "frame": 7,
+        "xyxy": [
+            1401.014892578125,
+            387.09527587890625,
+            1424.47314453125,
+            409.5579833984375
+        ],
+        "mask": null,
+        "confidence": 0.8360797762870789,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5966.25732421875,
+        "transformed_y": 1458.7615966796875
+    },
+    {
+        "frame": 8,
+        "xyxy": [
+            1410.87841796875,
+            394.8526306152344,
+            1434.142578125,
+            417.2629699707031
+        ],
+        "mask": null,
+        "confidence": 0.8390833139419556,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6010.59521484375,
+        "transformed_y": 1610.5067138671875
+    },
+    {
+        "frame": 10,
+        "xyxy": [
+            1433.5465087890625,
+            411.84197998046875,
+            1455.6552734375,
+            433.99066162109375
+        ],
+        "mask": null,
+        "confidence": 0.8409916162490845,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6117.60400390625,
+        "transformed_y": 1929.37744140625
+    },
+    {
+        "frame": 11,
+        "xyxy": [
+            1443.22509765625,
+            419.4847106933594,
+            1466.126708984375,
+            442.1118469238281
+        ],
+        "mask": null,
+        "confidence": 0.7199898958206177,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6158.328125,
+        "transformed_y": 2072.09814453125
+    },
+    {
+        "frame": 12,
+        "xyxy": [
+            1453.428466796875,
+            427.9066467285156,
+            1476.6212158203125,
+            451.0321960449219
+        ],
+        "mask": null,
+        "confidence": 0.8124071955680847,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6204.17919921875,
+        "transformed_y": 2224.89208984375
+    },
+    {
+        "frame": 13,
+        "xyxy": [
+            1463.8504638671875,
+            435.8349304199219,
+            1486.8033447265625,
+            459.3460998535156
+        ],
+        "mask": null,
+        "confidence": 0.7040878534317017,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6242.47314453125,
+        "transformed_y": 2354.954345703125
+    },
+    {
+        "frame": 14,
+        "xyxy": [
+            1473.9842529296875,
+            444.9080810546875,
+            1497.238525390625,
+            467.840087890625
+        ],
+        "mask": null,
+        "confidence": 0.6614935994148254,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6278.736328125,
+        "transformed_y": 2484.843017578125
+    },
+    {
+        "frame": 15,
+        "xyxy": [
+            1483.215576171875,
+            454.4068603515625,
+            1506.353759765625,
+            476.74542236328125
+        ],
+        "mask": null,
+        "confidence": 0.8453651070594788,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6309.900390625,
+        "transformed_y": 2616.733154296875
+    },
+    {
+        "frame": 16,
+        "xyxy": [
+            1493.4630126953125,
+            463.3394775390625,
+            1516.555419921875,
+            486.3641357421875
+        ],
+        "mask": null,
+        "confidence": 0.8492799401283264,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6344.912109375,
+        "transformed_y": 2765.947509765625
+    },
+    {
+        "frame": 17,
+        "xyxy": [
+            1502.592041015625,
+            473.1404724121094,
+            1525.4354248046875,
+            496.8021545410156
+        ],
+        "mask": null,
+        "confidence": 0.8481704592704773,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6370.62060546875,
+        "transformed_y": 2916.249755859375
+    },
+    {
+        "frame": 18,
+        "xyxy": [
+            1511.62841796875,
+            482.7522277832031,
+            1533.72509765625,
+            504.9974060058594
+        ],
+        "mask": null,
+        "confidence": 0.5081417560577393,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6404.1298828125,
+        "transformed_y": 3035.34814453125
+    },
+    {
+        "frame": 20,
+        "xyxy": [
+            1483.174072265625,
+            475.7590637207031,
+            1510.4197998046875,
+            499.8140563964844
+        ],
+        "mask": null,
+        "confidence": 0.8429193496704102,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6350.341796875,
+        "transformed_y": 3004.058349609375
+    },
+    {
+        "frame": 21,
+        "xyxy": [
+            1462.98779296875,
+            469.5562744140625,
+            1489.837646484375,
+            492.83251953125
+        ],
+        "mask": null,
+        "confidence": 0.7657405734062195,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6303.37646484375,
+        "transformed_y": 2928.176025390625
+    },
+    {
+        "frame": 22,
+        "xyxy": [
+            1441.516357421875,
+            463.3137512207031,
+            1469.085693359375,
+            485.5860290527344
+        ],
+        "mask": null,
+        "confidence": 0.8018414974212646,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6255.3125,
+        "transformed_y": 2844.274658203125
+    },
+    {
+        "frame": 23,
+        "xyxy": [
+            1421.62939453125,
+            456.55010986328125,
+            1448.654296875,
+            478.87969970703125
+        ],
+        "mask": null,
+        "confidence": 0.325042724609375,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6203.24951171875,
+        "transformed_y": 2771.239990234375
+    },
+    {
+        "frame": 24,
+        "xyxy": [
+            1402.0863037109375,
+            452.29071044921875,
+            1428.4764404296875,
+            474.16033935546875
+        ],
+        "mask": null,
+        "confidence": 0.8073500394821167,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6151.97265625,
+        "transformed_y": 2717.01025390625
+    },
+    {
+        "frame": 25,
+        "xyxy": [
+            1383.986083984375,
+            447.93646240234375,
+            1408.65283203125,
+            468.6732177734375
+        ],
+        "mask": null,
+        "confidence": 0.8305909633636475,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6101.27587890625,
+        "transformed_y": 2646.119873046875
+    },
+    {
+        "frame": 26,
+        "xyxy": [
+            1362.4736328125,
+            443.995849609375,
+            1388.613525390625,
+            465.522705078125
+        ],
+        "mask": null,
+        "confidence": 0.7222083806991577,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6035.140625,
+        "transformed_y": 2614.4052734375
+    },
+    {
+        "frame": 27,
+        "xyxy": [
+            1344.453857421875,
+            441.7890625,
+            1368.73583984375,
+            461.4976806640625
+        ],
+        "mask": null,
+        "confidence": 0.7447869181632996,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5979.44775390625,
+        "transformed_y": 2560.989990234375
+    },
+    {
+        "frame": 28,
+        "xyxy": [
+            1325.7506103515625,
+            438.93170166015625,
+            1350.719970703125,
+            459.32586669921875
+        ],
+        "mask": null,
+        "confidence": 0.5722417235374451,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5917.9189453125,
+        "transformed_y": 2545.194580078125
+    },
+    {
+        "frame": 29,
+        "xyxy": [
+            1308.16748046875,
+            436.82379150390625,
+            1332.60302734375,
+            457.63214111328125
+        ],
+        "mask": null,
+        "confidence": 0.4353688955307007,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5854.66357421875,
+        "transformed_y": 2529.9580078125
+    },
+    {
+        "frame": 30,
+        "xyxy": [
+            1290.9801025390625,
+            434.84588623046875,
+            1314.7520751953125,
+            455.72674560546875
+        ],
+        "mask": null,
+        "confidence": 0.5158225893974304,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5793.52392578125,
+        "transformed_y": 2511.139892578125
+    },
+    {
+        "frame": 32,
+        "xyxy": [
+            1256.247802734375,
+            433.85748291015625,
+            1280.901123046875,
+            455.6536865234375
+        ],
+        "mask": null,
+        "confidence": 0.3007715344429016,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5675.86376953125,
+        "transformed_y": 2529.5546875
+    },
+    {
+        "frame": 36,
+        "xyxy": [
+            1194.0926513671875,
+            438.1112060546875,
+            1216.486083984375,
+            458.213134765625
+        ],
+        "mask": null,
+        "confidence": 0.6889786720275879,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5446.6611328125,
+        "transformed_y": 2611.998046875
+    },
+    {
+        "frame": 37,
+        "xyxy": [
+            1178.83056640625,
+            440.60528564453125,
+            1202.497802734375,
+            460.53582763671875
+        ],
+        "mask": null,
+        "confidence": 0.842282235622406,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5390.87255859375,
+        "transformed_y": 2652.96826171875
+    },
+    {
+        "frame": 38,
+        "xyxy": [
+            1163.9990234375,
+            442.4368896484375,
+            1188.3233642578125,
+            462.251708984375
+        ],
+        "mask": null,
+        "confidence": 0.6785262823104858,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5341.33203125,
+        "transformed_y": 2689.79443359375
+    },
+    {
+        "frame": 40,
+        "xyxy": [
+            1137.965576171875,
+            449.5091552734375,
+            1158.1444091796875,
+            469.0079345703125
+        ],
+        "mask": null,
+        "confidence": 0.681374728679657,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5234.4150390625,
+        "transformed_y": 2799.359130859375
+    },
+    {
+        "frame": 41,
+        "xyxy": [
+            1122.06689453125,
+            454.2080078125,
+            1141.183837890625,
+            473.0889892578125
+        ],
+        "mask": null,
+        "confidence": 0.3530893921852112,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5175.03369140625,
+        "transformed_y": 2871.88623046875
+    },
+    {
+        "frame": 43,
+        "xyxy": [
+            1092.321533203125,
+            463.00531005859375,
+            1114.669677734375,
+            482.97064208984375
+        ],
+        "mask": null,
+        "confidence": 0.48378095030784607,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5081.568359375,
+        "transformed_y": 3028.470947265625
+    },
+    {
+        "frame": 44,
+        "xyxy": [
+            1079.3909912109375,
+            467.46575927734375,
+            1102.0904541015625,
+            488.01519775390625
+        ],
+        "mask": null,
+        "confidence": 0.7731077075004578,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 5040.3115234375,
+        "transformed_y": 3101.903564453125
+    },
+    {
+        "frame": 45,
+        "xyxy": [
+            1067.7742919921875,
+            473.1239013671875,
+            1087.085205078125,
+            491.98199462890625
+        ],
+        "mask": null,
+        "confidence": 0.35752612352371216,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4996.953125,
+        "transformed_y": 3160.486083984375
+    },
+    {
+        "frame": 47,
+        "xyxy": [
+            1034.2200927734375,
+            479.3685302734375,
+            1057.086181640625,
+            499.48931884765625
+        ],
+        "mask": null,
+        "confidence": 0.5588001012802124,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4891.23291015625,
+        "transformed_y": 3281.533203125
+    },
+    {
+        "frame": 50,
+        "xyxy": [
+            982.4603271484375,
+            487.591064453125,
+            1007.6919555664062,
+            508.5001220703125
+        ],
+        "mask": null,
+        "confidence": 0.7985417246818542,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4723.80712890625,
+        "transformed_y": 3456.506103515625
+    },
+    {
+        "frame": 51,
+        "xyxy": [
+            967.2499389648438,
+            490.06280517578125,
+            991.6632690429688,
+            510.57855224609375
+        ],
+        "mask": null,
+        "confidence": 0.833595335483551,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4674.95947265625,
+        "transformed_y": 3486.97509765625
+    },
+    {
+        "frame": 52,
+        "xyxy": [
+            952.6202392578125,
+            488.4951477050781,
+            976.9735107421875,
+            508.6571350097656
+        ],
+        "mask": null,
+        "confidence": 0.833361029624939,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4630.53564453125,
+        "transformed_y": 3467.683837890625
+    },
+    {
+        "frame": 53,
+        "xyxy": [
+            937.2515869140625,
+            487.64801025390625,
+            962.1593017578125,
+            507.34197998046875
+        ],
+        "mask": null,
+        "confidence": 0.8309285044670105,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4584.34619140625,
+        "transformed_y": 3457.662841796875
+    },
+    {
+        "frame": 54,
+        "xyxy": [
+            922.927001953125,
+            486.4864807128906,
+            947.071533203125,
+            506.7575988769531
+        ],
+        "mask": null,
+        "confidence": 0.8117888569831848,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4524.1298828125,
+        "transformed_y": 3412.750244140625
+    },
+    {
+        "frame": 55,
+        "xyxy": [
+            908.718505859375,
+            485.82061767578125,
+            932.1363525390625,
+            506.65826416015625
+        ],
+        "mask": null,
+        "confidence": 0.8311543464660645,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4482.12548828125,
+        "transformed_y": 3409.71044921875
+    },
+    {
+        "frame": 56,
+        "xyxy": [
+            894.0328369140625,
+            486.1903076171875,
+            917.6507568359375,
+            506.814453125
+        ],
+        "mask": null,
+        "confidence": 0.8320561647415161,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4441.47265625,
+        "transformed_y": 3402.03369140625
+    },
+    {
+        "frame": 57,
+        "xyxy": [
+            879.8460083007812,
+            486.3645324707031,
+            903.2526245117188,
+            506.8238830566406
+        ],
+        "mask": null,
+        "confidence": 0.7735625505447388,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4398.48974609375,
+        "transformed_y": 3400.262451171875
+    },
+    {
+        "frame": 58,
+        "xyxy": [
+            865.98583984375,
+            488.26214599609375,
+            888.571044921875,
+            508.76251220703125
+        ],
+        "mask": null,
+        "confidence": 0.7765300869941711,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4357.5537109375,
+        "transformed_y": 3418.75927734375
+    },
+    {
+        "frame": 59,
+        "xyxy": [
+            852.222900390625,
+            490.10491943359375,
+            874.5698852539062,
+            510.426025390625
+        ],
+        "mask": null,
+        "confidence": 0.4065942168235779,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4321.5927734375,
+        "transformed_y": 3431.0810546875
+    },
+    {
+        "frame": 61,
+        "xyxy": [
+            824.0638427734375,
+            494.61407470703125,
+            845.5430908203125,
+            515.6558837890625
+        ],
+        "mask": null,
+        "confidence": 0.673117995262146,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4246.37109375,
+        "transformed_y": 3502.300537109375
+    },
+    {
+        "frame": 62,
+        "xyxy": [
+            813.3746337890625,
+            493.3404846191406,
+            836.599609375,
+            515.395263671875
+        ],
+        "mask": null,
+        "confidence": 0.3612290918827057,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4218.62646484375,
+        "transformed_y": 3504.957275390625
+    },
+    {
+        "frame": 63,
+        "xyxy": [
+            801.6724243164062,
+            491.69647216796875,
+            824.5037231445312,
+            513.5474243164062
+        ],
+        "mask": null,
+        "confidence": 0.8285248875617981,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4178.23388671875,
+        "transformed_y": 3472.495849609375
+    },
+    {
+        "frame": 64,
+        "xyxy": [
+            789.444580078125,
+            491.39599609375,
+            811.709716796875,
+            511.646240234375
+        ],
+        "mask": null,
+        "confidence": 0.8186344504356384,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4142.0166015625,
+        "transformed_y": 3448.307373046875
+    },
+    {
+        "frame": 65,
+        "xyxy": [
+            778.5238037109375,
+            491.0536804199219,
+            799.6456298828125,
+            510.8465270996094
+        ],
+        "mask": null,
+        "confidence": 0.8186310529708862,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4111.90380859375,
+        "transformed_y": 3437.481201171875
+    },
+    {
+        "frame": 66,
+        "xyxy": [
+            766.9202880859375,
+            491.88067626953125,
+            787.4521484375,
+            511.877685546875
+        ],
+        "mask": null,
+        "confidence": 0.5986102819442749,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4085.051025390625,
+        "transformed_y": 3449.709228515625
+    },
+    {
+        "frame": 67,
+        "xyxy": [
+            765.8240356445312,
+            490.13238525390625,
+            784.6471557617188,
+            509.21697998046875
+        ],
+        "mask": null,
+        "confidence": 0.7591896653175354,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4081.753173828125,
+        "transformed_y": 3412.566650390625
+    },
+    {
+        "frame": 76,
+        "xyxy": [
+            761.0369262695312,
+            486.641845703125,
+            779.5630493164062,
+            505.4422607421875
+        ],
+        "mask": null,
+        "confidence": 0.44213202595710754,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4126.55517578125,
+        "transformed_y": 3357.224853515625
+    },
+    {
+        "frame": 83,
+        "xyxy": [
+            767.6159057617188,
+            506.48773193359375,
+            788.4931030273438,
+            527.4412841796875
+        ],
+        "mask": null,
+        "confidence": 0.4295843243598938,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4185.26708984375,
+        "transformed_y": 3519.076171875
+    },
+    {
+        "frame": 84,
+        "xyxy": [
+            768.10107421875,
+            510.4451904296875,
+            789.0928955078125,
+            532.1207275390625
+        ],
+        "mask": null,
+        "confidence": 0.7727177739143372,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4197.3134765625,
+        "transformed_y": 3566.81298828125
+    },
+    {
+        "frame": 84,
+        "xyxy": [
+            639.3325805664062,
+            400.7711486816406,
+            659.697509765625,
+            421.5573425292969
+        ],
+        "mask": null,
+        "confidence": 0.6678720712661743,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 3413.416748046875,
+        "transformed_y": 2086.0537109375
+    },
+    {
+        "frame": 85,
+        "xyxy": [
+            768.0765380859375,
+            511.82086181640625,
+            789.2071533203125,
+            533.3546752929688
+        ],
+        "mask": null,
+        "confidence": 0.7729238867759705,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4192.05908203125,
+        "transformed_y": 3579.880615234375
+    },
+    {
+        "frame": 86,
+        "xyxy": [
+            767.3013305664062,
+            512.9165649414062,
+            788.1305541992188,
+            534.2767944335938
+        ],
+        "mask": null,
+        "confidence": 0.8418720960617065,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4191.6884765625,
+        "transformed_y": 3579.052490234375
+    },
+    {
+        "frame": 87,
+        "xyxy": [
+            764.5823974609375,
+            515.7078247070312,
+            785.8961181640625,
+            537.4432373046875
+        ],
+        "mask": null,
+        "confidence": 0.8251001834869385,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4184.57177734375,
+        "transformed_y": 3577.9892578125
+    },
+    {
+        "frame": 88,
+        "xyxy": [
+            762.54345703125,
+            519.3297119140625,
+            783.8553466796875,
+            541.350830078125
+        ],
+        "mask": null,
+        "confidence": 0.8482381701469421,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4186.09423828125,
+        "transformed_y": 3599.762939453125
+    },
+    {
+        "frame": 89,
+        "xyxy": [
+            759.6409912109375,
+            521.3207397460938,
+            781.04150390625,
+            542.9307250976562
+        ],
+        "mask": null,
+        "confidence": 0.8635331392288208,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4178.91650390625,
+        "transformed_y": 3616.11328125
+    },
+    {
+        "frame": 90,
+        "xyxy": [
+            756.30126953125,
+            523.6311645507812,
+            777.3753051757812,
+            544.3699340820312
+        ],
+        "mask": null,
+        "confidence": 0.700320303440094,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4166.59228515625,
+        "transformed_y": 3631.130126953125
+    },
+    {
+        "frame": 91,
+        "xyxy": [
+            753.0919799804688,
+            525.5263061523438,
+            774.2394409179688,
+            546.755615234375
+        ],
+        "mask": null,
+        "confidence": 0.8402958512306213,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4160.509765625,
+        "transformed_y": 3656.2412109375
+    },
+    {
+        "frame": 92,
+        "xyxy": [
+            750.4951171875,
+            528.1117553710938,
+            771.3854370117188,
+            549.2584838867188
+        ],
+        "mask": null,
+        "confidence": 0.7952567338943481,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4156.0908203125,
+        "transformed_y": 3686.322265625
+    },
+    {
+        "frame": 93,
+        "xyxy": [
+            746.8529663085938,
+            530.294189453125,
+            768.0272827148438,
+            551.6939697265625
+        ],
+        "mask": null,
+        "confidence": 0.6972386837005615,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4151.90771484375,
+        "transformed_y": 3710.975341796875
+    },
+    {
+        "frame": 94,
+        "xyxy": [
+            744.4345703125,
+            533.940185546875,
+            766.400146484375,
+            555.5933837890625
+        ],
+        "mask": null,
+        "confidence": 0.5748374462127686,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4148.63818359375,
+        "transformed_y": 3751.272216796875
+    },
+    {
+        "frame": 95,
+        "xyxy": [
+            741.1084594726562,
+            537.2677612304688,
+            763.09619140625,
+            559.5365600585938
+        ],
+        "mask": null,
+        "confidence": 0.8736284971237183,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4140.490234375,
+        "transformed_y": 3798.84912109375
+    },
+    {
+        "frame": 96,
+        "xyxy": [
+            738.8560791015625,
+            540.4431762695312,
+            759.5836181640625,
+            561.4404907226562
+        ],
+        "mask": null,
+        "confidence": 0.670181930065155,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4143.25146484375,
+        "transformed_y": 3813.964111328125
+    },
+    {
+        "frame": 97,
+        "xyxy": [
+            605.6283569335938,
+            396.0914306640625,
+            625.8306274414062,
+            416.83660888671875
+        ],
+        "mask": null,
+        "confidence": 0.5452825427055359,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 3328.79052734375,
+        "transformed_y": 2016.774169921875
+    },
+    {
+        "frame": 98,
+        "xyxy": [
+            731.989990234375,
+            542.1339721679688,
+            753.8935546875,
+            564.0947875976562
+        ],
+        "mask": null,
+        "confidence": 0.7815656065940857,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4124.69580078125,
+        "transformed_y": 3843.76318359375
+    },
+    {
+        "frame": 99,
+        "xyxy": [
+            728.635009765625,
+            544.107177734375,
+            750.136474609375,
+            565.819580078125
+        ],
+        "mask": null,
+        "confidence": 0.8761694431304932,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4120.4970703125,
+        "transformed_y": 3862.031982421875
+    },
+    {
+        "frame": 100,
+        "xyxy": [
+            726.0905151367188,
+            546.2996215820312,
+            747.5313110351562,
+            567.8143920898438
+        ],
+        "mask": null,
+        "confidence": 0.8783702254295349,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4117.82666015625,
+        "transformed_y": 3876.150146484375
+    },
+    {
+        "frame": 101,
+        "xyxy": [
+            722.6270751953125,
+            549.1670532226562,
+            744.1644287109375,
+            571.1150512695312
+        ],
+        "mask": null,
+        "confidence": 0.8255757093429565,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4152.6630859375,
+        "transformed_y": 3978.832275390625
+    },
+    {
+        "frame": 102,
+        "xyxy": [
+            719.2840576171875,
+            552.075439453125,
+            740.8073120117188,
+            573.6370849609375
+        ],
+        "mask": null,
+        "confidence": 0.8342089056968689,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4149.916015625,
+        "transformed_y": 4008.707763671875
+    },
+    {
+        "frame": 103,
+        "xyxy": [
+            716.2601318359375,
+            553.0836791992188,
+            738.3082885742188,
+            575.4411010742188
+        ],
+        "mask": null,
+        "confidence": 0.4208748936653137,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4147.2119140625,
+        "transformed_y": 4025.917236328125
+    },
+    {
+        "frame": 104,
+        "xyxy": [
+            714.372802734375,
+            554.3929443359375,
+            735.700439453125,
+            575.9398193359375
+        ],
+        "mask": null,
+        "confidence": 0.7748779654502869,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4143.251953125,
+        "transformed_y": 4031.800048828125
+    },
+    {
+        "frame": 104,
+        "xyxy": [
+            1591.0809326171875,
+            587.8466186523438,
+            1611.721923828125,
+            608.7146606445312
+        ],
+        "mask": null,
+        "confidence": 0.32489457726478577,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 6723.1103515625,
+        "transformed_y": 4155.98974609375
+    },
+    {
+        "frame": 105,
+        "xyxy": [
+            711.5113525390625,
+            556.2221069335938,
+            733.1340942382812,
+            578.1895141601562
+        ],
+        "mask": null,
+        "confidence": 0.8856979012489319,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4135.6640625,
+        "transformed_y": 4066.352294921875
+    },
+    {
+        "frame": 106,
+        "xyxy": [
+            708.63623046875,
+            558.798095703125,
+            730.498046875,
+            580.4500732421875
+        ],
+        "mask": null,
+        "confidence": 0.3532337248325348,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4125.0703125,
+        "transformed_y": 4096.64111328125
+    },
+    {
+        "frame": 107,
+        "xyxy": [
+            706.1781005859375,
+            560.5577392578125,
+            728.2371826171875,
+            582.7239990234375
+        ],
+        "mask": null,
+        "confidence": 0.878825843334198,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4115.02197265625,
+        "transformed_y": 4118.1064453125
+    },
+    {
+        "frame": 108,
+        "xyxy": [
+            704.028076171875,
+            562.463623046875,
+            725.42236328125,
+            583.9967041015625
+        ],
+        "mask": null,
+        "confidence": 0.8973761796951294,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4102.07666015625,
+        "transformed_y": 4122.06689453125
+    },
+    {
+        "frame": 109,
+        "xyxy": [
+            701.091064453125,
+            564.4428100585938,
+            723.15673828125,
+            586.7039184570312
+        ],
+        "mask": null,
+        "confidence": 0.6295225024223328,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4052.43212890625,
+        "transformed_y": 4089.227294921875
+    },
+    {
+        "frame": 110,
+        "xyxy": [
+            698.5650634765625,
+            566.4566040039062,
+            720.501220703125,
+            589.0901489257812
+        ],
+        "mask": null,
+        "confidence": 0.8334859013557434,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4045.714111328125,
+        "transformed_y": 4109.07275390625
+    },
+    {
+        "frame": 111,
+        "xyxy": [
+            695.3529052734375,
+            568.9680786132812,
+            717.8992919921875,
+            591.2584838867188
+        ],
+        "mask": null,
+        "confidence": 0.8388888239860535,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4033.445556640625,
+        "transformed_y": 4128.2978515625
+    },
+    {
+        "frame": 113,
+        "xyxy": [
+            694.0198974609375,
+            572.7154541015625,
+            715.7017822265625,
+            594.316650390625
+        ],
+        "mask": null,
+        "confidence": 0.6751161217689514,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4022.861328125,
+        "transformed_y": 4172.091796875
+    },
+    {
+        "frame": 114,
+        "xyxy": [
+            690.9679565429688,
+            574.4586791992188,
+            715.0469360351562,
+            598.5504760742188
+        ],
+        "mask": null,
+        "confidence": 0.8622250556945801,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4021.224853515625,
+        "transformed_y": 4203.54443359375
+    },
+    {
+        "frame": 115,
+        "xyxy": [
+            691.197021484375,
+            576.1038818359375,
+            713.9306640625,
+            599.4471435546875
+        ],
+        "mask": null,
+        "confidence": 0.7425211071968079,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4021.677978515625,
+        "transformed_y": 4209.419921875
+    },
+    {
+        "frame": 116,
+        "xyxy": [
+            690.8567504882812,
+            579.3915405273438,
+            712.8252563476562,
+            602.1649780273438
+        ],
+        "mask": null,
+        "confidence": 0.8519601821899414,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4024.987060546875,
+        "transformed_y": 4220.75927734375
+    },
+    {
+        "frame": 117,
+        "xyxy": [
+            689.283935546875,
+            583.7630615234375,
+            711.9594116210938,
+            606.9813232421875
+        ],
+        "mask": null,
+        "confidence": 0.8812211155891418,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4026.38232421875,
+        "transformed_y": 4261.0068359375
+    },
+    {
+        "frame": 118,
+        "xyxy": [
+            688.860107421875,
+            587.9169311523438,
+            711.497314453125,
+            611.0177612304688
+        ],
+        "mask": null,
+        "confidence": 0.8285002112388611,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4035.179931640625,
+        "transformed_y": 4287.7666015625
+    },
+    {
+        "frame": 119,
+        "xyxy": [
+            687.8169555664062,
+            589.9358520507812,
+            710.6446533203125,
+            613.6669311523438
+        ],
+        "mask": null,
+        "confidence": 0.905633270740509,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4072.53369140625,
+        "transformed_y": 4376.9814453125
+    },
+    {
+        "frame": 120,
+        "xyxy": [
+            687.233642578125,
+            592.0151977539062,
+            709.70068359375,
+            615.4082641601562
+        ],
+        "mask": null,
+        "confidence": 0.9129358530044556,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4037.1923828125,
+        "transformed_y": 4328.5712890625
+    },
+    {
+        "frame": 121,
+        "xyxy": [
+            685.935546875,
+            594.5325317382812,
+            708.322265625,
+            617.8655395507812
+        ],
+        "mask": null,
+        "confidence": 0.8603073358535767,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4026.8984375,
+        "transformed_y": 4351.314453125
+    },
+    {
+        "frame": 122,
+        "xyxy": [
+            683.872802734375,
+            596.3049926757812,
+            707.61669921875,
+            620.7260131835938
+        ],
+        "mask": null,
+        "confidence": 0.7115240693092346,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4023.2294921875,
+        "transformed_y": 4376.306640625
+    },
+    {
+        "frame": 123,
+        "xyxy": [
+            683.4805908203125,
+            600.8712768554688,
+            706.631591796875,
+            624.4489135742188
+        ],
+        "mask": null,
+        "confidence": 0.8021004796028137,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4061.075439453125,
+        "transformed_y": 4473.4482421875
+    },
+    {
+        "frame": 124,
+        "xyxy": [
+            683.4972534179688,
+            603.765380859375,
+            706.3296508789062,
+            626.9976806640625
+        ],
+        "mask": null,
+        "confidence": 0.8585324287414551,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4063.300048828125,
+        "transformed_y": 4491.14794921875
+    },
+    {
+        "frame": 125,
+        "xyxy": [
+            682.4432373046875,
+            607.6846923828125,
+            705.4991455078125,
+            631.3131103515625
+        ],
+        "mask": null,
+        "confidence": 0.8648214936256409,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4056.336181640625,
+        "transformed_y": 4516.03662109375
+    },
+    {
+        "frame": 126,
+        "xyxy": [
+            680.6043701171875,
+            611.973876953125,
+            706.0775146484375,
+            636.2183837890625
+        ],
+        "mask": null,
+        "confidence": 0.7691100835800171,
+        "class_id": 0,
+        "tracker_id": null,
+        "data": {
+            "class_name": "ball"
+        },
+        "transformed_x": 4005.454345703125,
+        "transformed_y": 4495.60302734375
+    }
+]

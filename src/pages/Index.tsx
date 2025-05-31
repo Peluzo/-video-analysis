@@ -1,11 +1,14 @@
-
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/AppSidebar";
 import { Dashboard } from "@/components/Dashboard";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState("dashboard");
+
+  useEffect(() => {
+    console.log('Index - activeSection:', activeSection);
+  }, [activeSection]);
 
   return (
     <SidebarProvider>
