@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { 
@@ -128,7 +127,7 @@ export function AnalyticsDashboard() {
 
       {/* Charts Row */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <Card className="bg-gray-800 border-gray-700">
+        <Card className="bg-gray-800 border-gray-700 rounded-lg">
           <CardHeader>
             <CardTitle className="text-white">Match Flow</CardTitle>
           </CardHeader>
@@ -164,7 +163,7 @@ export function AnalyticsDashboard() {
           </CardContent>
         </Card>
 
-        <Card className="bg-gray-800 border-gray-700">
+        <Card className="bg-gray-800 border-gray-700 rounded-lg">
           <CardHeader>
             <CardTitle className="text-white">Field Position</CardTitle>
           </CardHeader>

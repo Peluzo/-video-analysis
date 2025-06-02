@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, Area, AreaChart } from "recharts";
 
@@ -70,7 +69,7 @@ export function TeamStats() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <Card className="bg-gray-800 border-gray-700">
+        <Card className="bg-gray-800 border-gray-700 rounded-lg">
           <CardHeader>
             <CardTitle className="text-white">Monthly Performance</CardTitle>
           </CardHeader>
@@ -94,7 +93,7 @@ export function TeamStats() {
           </CardContent>
         </Card>
 
-        <Card className="bg-gray-800 border-gray-700">
+        <Card className="bg-gray-800 border-gray-700 rounded-lg">
           <CardHeader>
             <CardTitle className="text-white">Possession Trend</CardTitle>
           </CardHeader>

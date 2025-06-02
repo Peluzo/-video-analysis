@@ -22,3 +22,28 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore backend artifacts (__pycache__, .pyc, .npy, .tflite, etc)
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.npy
+backend/**/*.tflite
+
+# Ignore virtual environment folders (venv, .venv, etc)
+venv/
+.venv/
+
+# Ignore IDE settings (e.g. .vscode, .idea, etc)
+.vscode/
+.idea/
+
+# Ignore OS generated files (e.g. .DS_Store, Thumbs.db, etc)
+.DS_Store
+Thumbs.db
+
+# Ignore any local env files (e.g. .env, .env.local, etc)
+.env
+.env.local
+
+# Ignore folder
+backend/model_export

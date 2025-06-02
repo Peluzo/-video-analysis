@@ -6,6 +6,7 @@ import {
   Activity,
   Settings,
   Circle,
+  PersonStanding,
 } from "lucide-react";
 import {
   Sidebar,
@@ -45,6 +46,12 @@ const menuItems = [
     icon: Circle,
     id: "ball"
   },
+  {
+    title: "Pose Estimation",
+    url: "#",
+    icon: PersonStanding,
+    id: "pose"
+  },
 ];
 
 interface AppSidebarProps {
@@ -59,22 +66,18 @@ export function AppSidebar({ activeSection = "dashboard", onSectionChange }: App
 
   return (
     <Sidebar className="bg-gray-950 border-gray-800">
-      <SidebarHeader className="border-b border-gray-800 p-6 bg-gray-950">
-        <div className="flex items-center gap-2">
-          <div className="w-12 h-12 flex items-center justify-center">
-            <img 
-              src="/lovable-uploads/0de70b71-a308-41e9-91a8-894ecfc73c21.png" 
-              alt="TIA Sport Logo" 
-              className="w-full h-full object-contain"
+      <SidebarHeader className="p-2 bg-gray-950">
+        <div className="flex items-center">
+          <div className="w-64 h-auto flex items-center">
+            <img
+              src="/tiasports.png"
+              alt="TIA Sport Logo"
+              className="w-full h-auto object-contain"
             />
-          </div>
-          <div>
-            <h2 className="text-lg font-bold text-white">TIA Sport</h2>
-            <p className="text-xs text-gray-400">Tactical Intelligence Assistant</p>
           </div>
         </div>
       </SidebarHeader>
-      
+
       <SidebarContent className="bg-gray-950">
         <SidebarGroup className="bg-gray-950">
           <SidebarGroupLabel className="text-gray-400 text-xs uppercase tracking-wider px-3 py-2 bg-gray-950">
@@ -84,10 +87,9 @@ export function AppSidebar({ activeSection = "dashboard", onSectionChange }: App
             <SidebarMenu>
               {menuItems.map((item) => (
                 <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton 
-                    className={`text-gray-300 hover:text-white hover:bg-gray-800 transition-all duration-200 cursor-pointer ${
-                      activeSection === item.id ? 'bg-blue-600 text-white hover:bg-blue-700' : ''
-                    }`}
+                  <SidebarMenuButton
+                    className={`text-gray-300 hover:text-white hover:bg-gray-800 transition-all duration-200 cursor-pointer ${activeSection === item.id ? 'bg-blue-600 text-white hover:bg-blue-700' : ''
+                      }`}
                     onClick={() => handleMenuClick(item.id)}
                   >
                     <div className="flex items-center gap-3 px-3 py-2">
@@ -101,7 +103,7 @@ export function AppSidebar({ activeSection = "dashboard", onSectionChange }: App
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
-      
+
       <SidebarFooter className="border-t border-gray-800 p-4 bg-gray-950">
         <SidebarMenu>
           <SidebarMenuItem>
