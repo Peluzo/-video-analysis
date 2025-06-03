@@ -1,14 +1,75 @@
-# Node.js dependencies
+# Dependencies
+## Node.js
 node_modules/
 
-# Build output
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+cover/
+*.mo
+*.pot
+*.log
+
+# Build and Distribution
+## Frontend
 /dist/
 /dist-ssr/
-
-# Vite cache
 .vite/
 
-# Log files
+## Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.npy
+*.tflite
+backend/model_export/
+
+# Environment and Configuration
+## Node.js
+.env
+.env.local
+.env.*.local
+
+## Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+poetry.lock
+Pipfile.lock
+
+# Logs
 logs/
 *.log
 npm-debug.log*
@@ -17,35 +78,25 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Local environment files
-.env
-.env.local
-
-# Editor settings
+# IDE and Editor Settings
 .vscode/
 !.vscode/extensions.json
 .idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# IDE project files
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
-# Python/Backend artifacts
+# Operating System
+.DS_Store
+Thumbs.db
+.directory
+desktop.ini
+
+# Project-specific
 backend/**/__pycache__/
 backend/**/*.pyc
 backend/**/*.npy
 backend/**/*.tflite
-
-# Python virtual environments
-venv/
-.venv/
-
-# Project-specific folders
 backend/model_export/

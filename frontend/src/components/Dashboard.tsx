@@ -5,6 +5,7 @@ import { VideoAnalysis } from "@/components/VideoAnalysis";
 import { PlayerStats } from "@/components/PlayerStats";
 import { TeamStats } from "@/components/TeamStats";
 import { BallDetection } from "@/components/BallDetection";
+import { PoseEstimation } from "@/components/PoseEstimation";
 import { useState, useEffect } from "react";
 import { Menu } from "lucide-react";
 
@@ -40,6 +41,8 @@ export function Dashboard({ activeSection, onSectionChange }: DashboardProps) {
         return <TeamStats />;
       case "ball":
         return <BallDetection />;
+      case "pose":
+        return <PoseEstimation />;
       default:
         return (
           <div className="space-y-8">
