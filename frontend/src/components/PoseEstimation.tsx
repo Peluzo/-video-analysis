@@ -290,14 +290,14 @@ export function PoseEstimation() {
     };
 
     return (
-        <Card className="w-full max-w-4xl mx-auto">
-            <CardHeader>
-                <CardTitle>Pose Estimation</CardTitle>
-                <CardDescription>
+        <Card className="w-full mx-auto bg-gray-800 border-gray-700 my-12">
+            <CardHeader className="bg-gray-800">
+                <CardTitle className="text-2xl text-white">Pose Estimation</CardTitle>
+                <CardDescription className="text-gray-400">
                     Upload a video or use your camera for real-time pose estimation
                 </CardDescription>
             </CardHeader>
-            <CardContent>
+            <CardContent className="p-12">
                 {error && (
                     <Alert variant="destructive" className="mb-4">
                         <AlertCircle className="h-4 w-4" />
@@ -307,25 +307,25 @@ export function PoseEstimation() {
                 )}
 
                 <Tabs defaultValue="upload" className="w-full">
-                    <TabsList className="grid w-full grid-cols-2">
-                        <TabsTrigger value="upload">Upload Video</TabsTrigger>
-                        <TabsTrigger value="camera">Camera Stream</TabsTrigger>
+                    <TabsList className="grid w-full grid-cols-2 bg-gray-900">
+                        <TabsTrigger value="upload" className="data-[state=active]:bg-gray-800">Upload Video</TabsTrigger>
+                        <TabsTrigger value="camera" className="data-[state=active]:bg-gray-800">Camera Stream</TabsTrigger>
                     </TabsList>
 
-                    <TabsContent value="upload" className="space-y-4">
+                    <TabsContent value="upload" className="space-y-4 mt-6">
                         <div className="flex flex-col items-center gap-4">
                             <input
                                 type="file"
-                                accept="video/*"
+                                accept="video/*,.mp4,.mov,.avi"
                                 onChange={handleFileUpload}
                                 className="hidden"
                                 id="video-upload"
                                 disabled={isProcessing}
                             />
-                            <label htmlFor="video-upload">
+                            <label htmlFor="video-upload" className="w-full">
                                 <Button
                                     variant="outline"
-                                    className="w-full"
+                                    className="w-full bg-gray-800 hover:bg-gray-700 border-gray-700 text-gray-200"
                                     disabled={isProcessing}
                                 >
                                     <Upload className="mr-2 h-4 w-4" />
@@ -335,7 +335,7 @@ export function PoseEstimation() {
                             {videoUrl && (
                                 <video
                                     controls
-                                    className="w-full max-w-2xl rounded-lg"
+                                    className="w-full max-w-4xl rounded-lg bg-black"
                                     src={videoUrl}
                                 />
                             )}
